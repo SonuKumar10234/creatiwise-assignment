@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Website</title>
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid  p-0" style="background-color: #C4A484;">
+        <div class="row gx-0 d-none d-lg-flex text-white">
+            <div class="col-lg-8 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-5">
+                    <small class="fa fa-phone-alt me-2"></small>
+                    <small>+61-401-224-357</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt me-2"></small>
+                    <small>Free shipping on orders $49+/Express $99+</small>
+                </div>
+            </div>
+            <div class="col-lg-4 px-5 text-end">
+
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white me-2" style="color: #c4a484;" href=""><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white me-2" style="color: #c4a484;" href=""><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white me-2" style="color: #c4a484;" href=""><i
+                            class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-0 py-2 d-none d-lg-flex bg-white justify-content-lg-between align-items-lg-center border-bottom">
+            <div class="col-lg-3 px-5">
+                <div class="h-100 align-items-center py-3 me-5">
+                    <a href="index.html" class="align-items-center">
+                        <h3 class="text-primary">LOGO</h3>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="col-lg-6 px-5">
+
+                <div class="main" style="border:1px solid #f26522; border-radius: 30px;">
+                    <div class="input-group">
+                        <input type="text" class="form-control ps-4" placeholder="Search"
+                            style="border-radius: 30px 0px 0px 30px; outline: none; border: none;">
+                        <div class="input-group-append">
+                            <button class="btn text-white" type="button" style="background-color:#f26522; border-radius:0px 30px 30px 0px;">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 px-5 d-lg-flex justify-content-lg-between align-items-lg-center text-dark gap-4">
+
+                <div class="h-100 d-inline-flex align-items-center position-relative">
+                    <a href="#" class="me-3"><img src="img/shopping-cart.png" alt="shopping cart" width="20px"
+                            style="object-fit: cover;"></a>
+                    <small>$254.46</small>
+                    <small class="position-absolute text-white text-center"
+                        style="background: #FF3E41; width: 17px; height: 17px; top: 0; font-size: 0.65rem; border-radius: 100%; left: 11px; line-height: 17px;">12</small>
+                </div>
+                
+                <div class="h-100 d-inline-flex">
+                    <small>Login/Register</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-3">
+        <a href="index.html" class="navbar-brand d-lg-none align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary">LOGO</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav p-4 p-lg-0 px-lg-5 w-100 justify-content-between text-dark">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle fw-bolder active" data-bs-toggle="dropdown">By
+                        Category</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="product.html" class="dropdown-item">Bevarages</a>
+                        <a href="product.html" class="dropdown-item">Snack</a>
+                        <a href="product.html" class="dropdown-item">Pulses</a>
+                        <a href="product.html" class="dropdown-item">Chocolates</a>
+                        <a href="product.html" class="dropdown-item">Biscuits</a>
+                    </div>
+                </div>
+                <a href="product.html" class="nav-item nav-link fw-bolder">All Product</a>
+                <a href="#goal" class="nav-item nav-link fw-bolder">Our Goal</a>
+                <a href="#" class="nav-item nav-link fw-bolder">FAQs</a>
+                <a href="#footer" class="nav-item nav-link fw-bolder">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home start -->
+    <div class="container-fluid wow fadeInUp overflow-hidden mt-3" data-wow-delay="0.1s">
+
+        <div class="row py-5 text-center" style="background-color: rgba(0,0,0,0.2);">
+            <h5>Invite friends to store & get up to $150 Cashbacks for every person who visits</h5>
+            <a href="#" class="mt-4"><button class="btn bg-white">INVITE NOW</button></a>
+        </div>
+
+    </div>
+    <!-- Home End -->
+
+
+    <!-- Product & Filter Start -->
+    <div class="container-fluid wow fadeInUp overflow-hidden py-3 border-bottom" data-wow-delay="0.1s">
+        <div class="px-3 flex-wrap d-flex justify-content-between align-items-center">
+            <h6>Filters</h6>
+            <div class="px-3 py-2 d-flex align-items-center gap-2">
+
+                <select class="form-select" aria-label="select rating" style="border-radius: 30px; font-size: 0.875em;">
+                    <option selected>Sort by : Recommended</option>
+                    <option value="1">100</option>
+                    <option value="2">200</option>
+                    <option value="3">300</option>
+                </select>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Filters -->
+            <div class="col-2 col-md-0 border-end pt-4 h-100 d-none d-md-block">
+                <div class="category mb-2 border-bottom pb-3">
+                    <p style="font-weight: 600; color: #3b3b3b;">Categories</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <small>Lorem Ipsum (9546)</small>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small>Bevarages (326)</small>
+                        </label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small>snacks (88)</small>
+                        </label>
+                    </div>
+                    <small class="ms-4" style="color: #f26522;">+10 more</small>
+                </div>
+                <div class="brand mb-2 border-bottom pb-3">
+                    <p style="font-weight: 600; color: #3b3b3b; margin-top: 1rem;">Brands</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <small>Lora Lorem (458)</small>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small>Poppins Ipsum (9546)</small>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small>Playfair Display (65)</small>
+                        </label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small>Drake John (78)</small>
+                        </label>
+                    </div>
+                    <small class="ms-4" style="color: #f26522;">+10 more</small>
+                </div>
+                <div class="rating mb-2 border-bottom pb-3">
+                    <p style="font-weight: 600; color: #3b3b3b; margin-top: 1rem;">Price</p>
+                    <div class="wrapper">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <select class="form-select" aria-label="select rating"
+                                style="border-radius: 30px; font-size: 0.675em;">
+                                <option selected>Min</option>
+                                <option value="1">100</option>
+                                <option value="2">200</option>
+                                <option value="3">300</option>
+                            </select>
+                            <small>to</small>
+                            <select class="form-select" aria-label="select rating"
+                                style="border-radius: 30px; font-size: 0.675em;">
+                                <option selected>Max</option>
+                                <option value="1">1000</option>
+                                <option value="2">2000</option>
+                                <option value="3">3000</option>
+                            </select>
+                        </div>
+                        <div class="slider">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="range-input">
+                            <input type="range" class="range-min" min="0" max="10000" value="2000" step="100">
+                            <input type="range" class="range-max" min="0" max="10000" value="8200" step="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="rating mb-2 border-bottom pb-3">
+                    <p style="font-weight: 600; color: #3b3b3b; margin-top: 1rem;">Customer Rating</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <small><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-warning"></i></small>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-light"></i></small>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-warning"></i><i class="fa fa-star text-light"></i><i
+                                    class="fa fa-star text-light"></i></small>
+                        </label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-light"></i><i class="fa fa-star text-light"></i><i
+                                    class="fa fa-star text-light"></i></small>
+                        </label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            <small><i class="fa fa-star text-warning"></i><i class="fa fa-star text-light"></i><i
+                                    class="fa fa-star text-light"></i><i class="fa fa-star text-light"></i><i
+                                    class="fa fa-star text-light"></i></small>
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="rating mb-2 border-bottom pb-3">
+                    <p style="font-weight: 600; color: #3b3b3b; margin-top: 1rem;">Customer Rating</p>
+                    <select class="form-select" aria-label="select rating"
+                        style="border-radius: 30px; font-size: 0.875em;">
+                        <option selected>25/11/2020</option>
+                        <option value="1">25/12/2021</option>
+                        <option value="2">25/12/2022</option>
+                        <option value="3">25/12/2023</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Filters -->
+
+           <!-- Products -->
+            <div class="col-md-10">
+                <div class="row px-xl-5 py-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/design-bag.jpeg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/coconut-butter.jpg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/tea-tree.jpeg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/peanut-butter.jpeg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/coconut-butter.jpg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/chocolate-orange.jpg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/chocolate-jar.png"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/tastik-rice.jpeg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/design-bag.jpeg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/coconut-butter.jpg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/tea-tree.jpeg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/peanut-butter.jpeg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/coconut-butter.jpg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/chocolate-orange.jpg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/chocolate-jar.png"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
+                        <div class="product-item d-flex justify-content-center border py-2">
+                            <div class="py-3">
+                                <div class="d-flex align-items-end mb-4">
+                                    <img class="img-fluid flex-shrink-0" src="img/tastik-rice.jpeg"
+                                        style="width: 130px; height: 130px;">
+                                </div>
+                                <p class="text-center mb-0">Product Name</p>
+                                <p class="text-center">500gm</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <h6>$45.95</h6>
+                                    <small class="text-muted"><del style="color: #f26522;">$95.55</del></small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Products -->
+        </div>
+
+        <!-- Pagination -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item" style="margin-right: 30px;">
+                <a class="page-link" href="#" tabindex="-1"><i class="fa fa-angle-left"></i> Previous </a>
+
+              </li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">1</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">2</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">3</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">4</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">5</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">6</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">7</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">8</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">9</a></li>
+              <li class="page-item" style="margin-left: 10px;"><a class="page-link" href="#">10</a></li>
+              <li class="page-item" style="margin-left: 40px;">
+                <a class="page-link" href="#">Next <i class="fa fa-angle-right"></i></a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Pagination -->
+    </div>
+    <!-- Product & Filter End -->
+
+
+    <!-- Newslatter Start -->
+    <div class="container py-5 text-center mt-5"
+        style="background-image: url('img/banner-bg.png'); background-size: cover; background-repeat: no-repeat;">
+        <div class="row py-3">
+            <h4 class="text-warning">SIGN IN FOR OUR NEWSLETTER</h4>
+            <p class="text-light">Subscribe to the weekly newsletter for all the latest updates</p>
+            <div class="position-relative mx-auto" style="width: 70%;">
+                <input class="form-control border-0 w-100 ps-4" type="text" placeholder="Enter Your Email Address"
+                    style="border-radius: 30px; padding: 12px">
+                <button type="button" class="btn position-absolute top-0 end-0 me-2 text-white"
+                    style="padding: 0.8rem 0rem; width: 120px; background-color: #FF3E41;">SEND</button>
+            </div>
+        </div>
+    </div>
+    <!-- Newslatter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid  footer mt-3 pt-5 wow fadeIn" data-wow-delay="0.1s" id="footer">
+        <div class="container py-4">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-0">
+                    <h4 class="text-primary mb-4">LOGO</h4>
+                  
+                    <div class="d-flex py-4">
+                        <a class="btn-social" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="border-top pt-4">
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>39 Lonsade Street, Melborne, VLC
+                            3000</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+61 401 224 357</p>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="row gy-5">
+                        <div class="col-lg-4 col-md-4">
+                            <p class="text-dark mb-4 ftr-title">BROWSE BY CATEGORY</p>
+                            <ul>
+                                <li><a class="btn-link" href="">General Carpentry</a></li>
+                                <li><a class="btn-link" href="">Furniture Remodeling</a></li>
+                                <li><a class="btn-link" href="">Wooden Floor</a></li>
+                                <li><a class="btn-link" href="">Wooden Furniture</a></li>
+                                <li><a class="btn-link" href="">Custom Carpentry</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <p class="text-dark mb-4 ftr-title">BROWSE BY COUNTRIES</p>
+                            <ul>
+                                <li><a class="btn-link" href="">Vietnam</a></li>
+                                <li><a class="btn-link" href="">Korea</a></li>
+                                <li><a class="btn-link" href="">Thailand</a></li>
+                                <li><a class="btn-link" href="">America</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <p class="text-dark mb-4 ftr-title">INFORMATION</p>
+                            <ul>
+                                <li><a class="btn-link" href="">About Us</a></li>
+                                <li><a class="btn-link" href="">Contact Us</a></li>
+                                <li><a class="btn-link" href="">Our Services</a></li>
+                                <li><a class="btn-link" href="">Terms & Condition</a></li>
+                                <li><a class="btn-link" href="">Support</a></li>
+                            </ul>
+
+                        </div>
+
+
+                        <div class="col-lg-7 col-md-8">
+                            <p class="text-dark mb-4 ftr-title">CONTACT US</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>If you have any question, please contact
+                                us at support@xyz.com</p>
+                            
+
+                        </div>
+                        <div class="col-12 col-lg-5 col-md-4 text-center text-md-start mb-3 mb-md-0">
+                            <div class="copyright text-center d-md-flex justify-content-md-end align-items-md-end">
+                                Copyright &copy; 2021. All Right Reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

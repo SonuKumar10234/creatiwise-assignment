@@ -388,6 +388,16 @@ ul{
     }   
 }
 
+@media screen and (max-width: 768px){
+    .product-carousel .owl-nav .owl-prev {
+       top: 56px;
+    }
+
+    .product-carousel .owl-nav .owl-next {
+       top: 56px;
+    }
+}
+
 
 
 /*** Miscellaneous ***/

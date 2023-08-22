@@ -51,3 +51,18 @@
     
 })(jQuery);
 
+
+
+var cart = document.querySelector('.cart');
+var cartList = document.querySelector('.cart-list');
+cart.addEventListener('click', ()=>{
+    if(cartList.style.display === "none"){
+        cartList.style.display = "block";
+        cartList.style.opacity = '1'
+    }
+    else{
+        cartList.style.display = "none";
+        cartList.style.opacity = '0'
+    }
+});
+
